@@ -1,0 +1,63 @@
+body  {
+    background: url('background.png');
+    
+}
+
+.rhol {
+    color: #fff;
+}
+
+#dnb_link {
+    
+}
+
+#email_link {
+    
+}
+
+#cloud_link {
+    
+}
+
+#programmed_link {
+    
+}
+
+
+.center {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1;
+}
+
+.recent {
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 25px;
+    border-top: 2px solid #eaeaea;
+    color: #777;
+}
+
+.sib {
+    margin-top: 10px;
+    width: 200px;
+}
+
+.username, .password {
+    margin-top: 5px;
+    position: absolute;
+    left: 370px;
+}
+
+jthpdb {
+    background-color: blue;
+    color: blue;
+    
+}
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
