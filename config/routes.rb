@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get '/cloud', to: 'pages#cloud'
   get '/planner', to: 'pages#planner'
   get '/design', to: 'pages#design'
+  get '/pa', to: 'pages#pa'
   
   get '/ide', to: 'projects#ide'
   get '/mtp', to: 'projects#mtp'
@@ -23,9 +24,11 @@ Rails.application.routes.draw do
   get '/iboard', to: 'projects#iboard'
   get '/enews', to: 'projects#enews'
   get '/sm', to: 'projects#sm'
+  get '/vr', to: 'projects#vr'
   
   get '/personal_information', to: 'account#personal_information'
   get '/contact', to: 'account#contact'
+  get 'private', to: 'account#private'
   
   get '/cube_home', to: 'cube#home'
   

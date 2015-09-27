@@ -30,7 +30,9 @@ class PagesController < ApplicationController
     @skip_navbar = true
   end
   
-
+  def pa
+    skip_navbar = true
+  end
   
    def cube
      @skip_navbar = true

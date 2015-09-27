@@ -36,4 +36,8 @@ class ProjectsController < ApplicationController
   def sm
     @skip_navbar = true
   end
+  
+  def vr
+    @skip_navbar = true
+  end
 end
