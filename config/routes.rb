@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     root 'pages#home'
     
 
-  get '/login', to: 'pages#login'
+ 
   get '/home', to: 'pages#home'
   get '/develop_and_build', to: 'pages#develop_and_build'
   get '/email', to: 'pages#email'
@@ -32,6 +32,10 @@ Rails.application.routes.draw do
   
   get '/cube_home', to: 'cube#home'
   
- 
+    get 'new' => 'users#new' 
+    resources :users
+    
+   get '/login' => 'sessions#new'
+   post 'login' => 'sessions#create'
 
 end

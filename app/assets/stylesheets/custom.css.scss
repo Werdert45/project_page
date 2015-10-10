@@ -67,9 +67,45 @@ h1, h2, h3, h4 {
 }
 
 jthpdb {
-    background-color: blue;
+    background-color: #0040FF!important;
     color: blue;
     
+}
+
+#lt {
+    font-color: white;
+}
+
+
+
+
+body, .su {
+  background: #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+}
+
+.btn-submit {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: #c91717;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 6px;
+}
+
+
+.jtpl {
+    background-color: #FF4000!important;
 }
 
 @import "bootstrap-sprockets";

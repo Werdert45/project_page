@@ -1,0 +1,17 @@
+<div class="jumbotron jtlp">
+<div class="login">
+	<div class="container">
+		<div class="form">
+
+      <h1 id="lt">Log in</h1>
+			
+<%= form_for(:session, url: login_path) do |f| %> 
+ <p></p> <%= f.email_field :email, :placeholder => "Email" %> 
+  <p></p><%= f.password_field :password, :placeholder => "Password" %> 
+  <p></p><%= f.submit "Log in", class: "btn-submit" %>
+<% end %>
+		
+    </div>
+	</div>
+</div>
+</div>
